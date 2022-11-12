@@ -27,8 +27,8 @@ jobs:
           yarn install --frozen-lockfile
           yarn build
 
-      - name: Test
-        run: yarn test:unit
+      # - name: Test
+      #   run: yarn test:unit
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
