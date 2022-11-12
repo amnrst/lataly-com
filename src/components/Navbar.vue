@@ -3,7 +3,7 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <div class="greetings">
+  <div class="greetings z-10">
     <h1 class="pb-8 text-3xl text-center text-teal-600">Latlay!</h1>
     <nav class="text-center text-xs w-full">
       <RouterLink to="/" class="border-r pr-4">Home</RouterLink>
