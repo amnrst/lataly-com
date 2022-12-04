@@ -5,10 +5,12 @@ on:
     branches: [master]
     paths:
       - src/**
+      - public/**
   pull_request:
     branches: [master]
     paths:
       - src/**
+      - public/**
 
 jobs:
   build-test-and-deploy:
